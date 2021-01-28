@@ -3,11 +3,11 @@
 <tr>
   <th>task</th>
     <th>label</th>
-      <th>priority</th>
+      <th>Done</th>
 </tr>
 <tr *ngFor='let todo of todos'>
 <th>{{todo.task}}</th>
     <th>{{todo.label}}</th>
-     <th>{{todo.priority}}</th>
+     <th>{{todo.Done? '&#10003;' :'&#10005;'}}</th>
 </tr>
 </table>

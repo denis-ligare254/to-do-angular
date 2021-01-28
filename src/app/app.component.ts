@@ -11,22 +11,22 @@ export class AppComponent {
     {
     task:'marketing',
     label:'cook',
-    priority:1,
+    Done:1,
   },
       {
     task:'fetch water',
     label:'read',
-    priority:2,
+    Done:2,
   },
       {
     task:'go to school',
     label:'work hard',
-    priority:3,
+     Done:3,
   },
       {
     task:'cook for mummy',
     label:'shower',
-    priority:4,
+    Done:4,
   },
 ];
 }
