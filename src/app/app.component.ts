@@ -6,5 +6,27 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'todo';
+  title = 'My to-do list';
+  todo =[
+    {
+    taskOne:'marketing',
+    taskTwo:'cook',
+    priority:1,
+  },
+      {
+    taskOne:'fetch water',
+    taskTwo:'read',
+    priority:2,
+  },
+      {
+    taskOne:'go to school',
+    taskTwo:'work hard',
+    priority:3,
+  },
+      {
+    taskOne:'cook for mummy',
+    taskTwo:'shower',
+    priority:4,
+  },
+];
 }
